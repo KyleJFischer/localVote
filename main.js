@@ -40,7 +40,7 @@ app.get('/no',function (req,res){
 	 res.redirect('/');
 });
 
-app.get('/no',function (req,res){
+app.get('/reset',function (req,res){
 	noCount = 0;
 	yesCount = 0;
 	res.send("The Votes have been reset");
